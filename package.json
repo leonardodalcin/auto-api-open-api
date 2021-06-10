@@ -1,8 +1,8 @@
 {
-  "name": "chrome-extension-typescript-starter",
+  "name": "auto-open-api",
   "version": "1.0.0",
-  "description": "chrome-extension-typescript-starter",
-  "main": "index.js",
+  "description": "auto-open-api",
+  "main": "build/index.js",
   "watch": {
     "compile-ts": {
       "patterns": [
@@ -25,7 +25,8 @@
   "scripts": {
     "dev": "npm-watch",
     "copy-static-files": "rsync -zarv $(find ./src -print | grep 'json\\|html\\|js\\|png') ./dist",
-    "compile-ts": "tsc --sourceMap",
+    "lint": "prettier --ignore-path .gitignore . -w",
+    "compile": "tsc --sourceMap",
     "clean": "rm -rf dist",
     "test": "jest"
   },

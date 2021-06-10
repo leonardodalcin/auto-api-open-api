@@ -1,12 +1,11 @@
 chrome.devtools.panels.create(
-    "My Panel",
-    "icon.png",
-    "devtools.html",
-    function (panel) {}
+  "My Panel",
+  "icon.png",
+  "devtools.html",
+  function (panel) {}
 );
 
 import { Cookie, Header, QueryString } from "har-format";
-
 
 interface RequestSample {
   id: string;
