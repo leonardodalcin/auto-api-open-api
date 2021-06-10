@@ -1,0 +1,306 @@
+{
+  "/_private/browser/stats": {
+    "0": {
+      "request": {
+        "body": "{\"stats\":[{\"webVitalTimings\":[{\"name\":\"https://github.com/leonardodalcin/chrome-open-api-generetor\",\"fid\":1.3599999947473407}],\"timestamp\":1617097325470,\"loggedIn\":true}]}",
+        "cookies": [],
+        "headers": [
+          {
+            "name": "sec-ch-ua",
+            "value": "\"Google Chrome\";v=\"89\", \"Chromium\";v=\"89\", \";Not A Brand\";v=\"99\""
+          },
+          { "name": "Referer", "value": "https://github.com/" },
+          { "name": "sec-ch-ua-mobile", "value": "?0" },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"
+          },
+          { "name": "Content-Type", "value": "text/plain;charset=UTF-8" }
+        ],
+        "href": "https://api.github.com/_private/browser/stats",
+        "method": "POST",
+        "pathname": "/_private/browser/stats",
+        "queryString": [],
+        "search": "",
+        "url": "https://api.github.com/_private/browser/stats"
+      },
+      "response": { "body": null, "headers": [], "status": 0 }
+    },
+    "1": {
+      "request": {
+        "body": "{\"stats\":[{\"webVitalTimings\":[{\"name\":\"https://github.com/leonardodalcin/chrome-open-api-generetor\",\"lcp\":680.494}],\"timestamp\":1617097325494,\"loggedIn\":true}]}",
+        "cookies": [],
+        "headers": [
+          {
+            "name": "sec-ch-ua",
+            "value": "\"Google Chrome\";v=\"89\", \"Chromium\";v=\"89\", \";Not A Brand\";v=\"99\""
+          },
+          { "name": "Referer", "value": "https://github.com/" },
+          { "name": "sec-ch-ua-mobile", "value": "?0" },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"
+          },
+          { "name": "Content-Type", "value": "text/plain;charset=UTF-8" }
+        ],
+        "href": "https://api.github.com/_private/browser/stats",
+        "method": "POST",
+        "pathname": "/_private/browser/stats",
+        "queryString": [],
+        "search": "",
+        "url": "https://api.github.com/_private/browser/stats"
+      },
+      "response": { "body": null, "headers": [], "status": 0 }
+    },
+    "2": {
+      "request": {
+        "body": "{\"stats\":[{\"requestUrl\":\"https://github.com/leonardodalcin/chrome-open-api-generetor/pulls?_pjax=%23js-repo-pjax-container\",\"pjaxDuration\":518,\"timestamp\":1617097326026,\"loggedIn\":true}]}",
+        "cookies": [],
+        "headers": [
+          {
+            "name": "sec-ch-ua",
+            "value": "\"Google Chrome\";v=\"89\", \"Chromium\";v=\"89\", \";Not A Brand\";v=\"99\""
+          },
+          { "name": "Referer", "value": "https://github.com/" },
+          { "name": "sec-ch-ua-mobile", "value": "?0" },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"
+          },
+          { "name": "Content-Type", "value": "text/plain;charset=UTF-8" }
+        ],
+        "href": "https://api.github.com/_private/browser/stats",
+        "method": "POST",
+        "pathname": "/_private/browser/stats",
+        "queryString": [],
+        "search": "",
+        "url": "https://api.github.com/_private/browser/stats"
+      },
+      "response": { "body": null, "headers": [], "status": 0 }
+    }
+  },
+  "/github/page_view": {
+    "0": {
+      "request": {
+        "cookies": [],
+        "headers": [
+          {
+            "name": "sec-ch-ua",
+            "value": "\"Google Chrome\";v=\"89\", \"Chromium\";v=\"89\", \";Not A Brand\";v=\"99\""
+          },
+          { "name": "Referer", "value": "https://github.com/" },
+          { "name": "sec-ch-ua-mobile", "value": "?0" },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"
+          }
+        ],
+        "href": "https://collector.githubapp.com/github/page_view?dimensions[page]=https%3A%2F%2Fgithub.com%2Fleonardodalcin%2Fchrome-open-api-generetor&dimensions[title]=leonardodalcin%2Fchrome-open-api-generetor&dimensions[referrer]=https%3A%2F%2Fgithub.com%2F&dimensions[user_agent]=Mozilla%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F89.0.4389.90%20Safari%2F537.36&dimensions[screen_resolution]=2560x1440&dimensions[pixel_ratio]=1&dimensions[browser_resolution]=1790x1204&dimensions[tz_seconds]=7200&dimensions[timestamp]=1617097320260&dimensions[referrer]=https%3A%2F%2Fgithub.com%2F&dimensions[request_id]=DC88%3A11431%3A1C44C71%3A1D08BC4%3A6062F261&dimensions[visitor_id]=5569794233374550582&dimensions[region_edge]=fra&dimensions[region_render]=iad&dimensions[user_id]=15152138&dimensions[user_login]=leonardodalcin&dimensions[repository_id]=295434611&dimensions[repository_nwo]=leonardodalcin%2Fchrome-open-api-generetor&dimensions[repository_public]=false&dimensions[repository_is_fork]=false&dimensions[repository_network_root_id]=295434611&dimensions[repository_network_root_nwo]=leonardodalcin%2Fchrome-open-api-generetor&&measures[performance_timing]=1-1-1-778-596-595-545-470-1-1-1--778-0---8-544-444--468-467&&dimensions[actor_id]=15152138&dimensions[actor_login]=leonardodalcin&dimensions[actor_hash]=986b97d341ecfbe637d165e3a34991bcadc335eeb8dc2443fab83e137c6f6828&dimensions[cid]=1296818776.1615800886",
+        "method": "GET",
+        "pathname": "/github/page_view",
+        "queryString": [
+          {
+            "name": "dimensions[page]",
+            "value": "https%3A%2F%2Fgithub.com%2Fleonardodalcin%2Fchrome-open-api-generetor"
+          },
+          {
+            "name": "dimensions[title]",
+            "value": "leonardodalcin%2Fchrome-open-api-generetor"
+          },
+          {
+            "name": "dimensions[referrer]",
+            "value": "https%3A%2F%2Fgithub.com%2F"
+          },
+          {
+            "name": "dimensions[user_agent]",
+            "value": "Mozilla%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F89.0.4389.90%20Safari%2F537.36"
+          },
+          { "name": "dimensions[screen_resolution]", "value": "2560x1440" },
+          { "name": "dimensions[pixel_ratio]", "value": "1" },
+          { "name": "dimensions[browser_resolution]", "value": "1790x1204" },
+          { "name": "dimensions[tz_seconds]", "value": "7200" },
+          { "name": "dimensions[timestamp]", "value": "1617097320260" },
+          {
+            "name": "dimensions[referrer]",
+            "value": "https%3A%2F%2Fgithub.com%2F"
+          },
+          {
+            "name": "dimensions[request_id]",
+            "value": "DC88%3A11431%3A1C44C71%3A1D08BC4%3A6062F261"
+          },
+          { "name": "dimensions[visitor_id]", "value": "5569794233374550582" },
+          { "name": "dimensions[region_edge]", "value": "fra" },
+          { "name": "dimensions[region_render]", "value": "iad" },
+          { "name": "dimensions[user_id]", "value": "15152138" },
+          { "name": "dimensions[user_login]", "value": "leonardodalcin" },
+          { "name": "dimensions[repository_id]", "value": "295434611" },
+          {
+            "name": "dimensions[repository_nwo]",
+            "value": "leonardodalcin%2Fchrome-open-api-generetor"
+          },
+          { "name": "dimensions[repository_public]", "value": "false" },
+          { "name": "dimensions[repository_is_fork]", "value": "false" },
+          {
+            "name": "dimensions[repository_network_root_id]",
+            "value": "295434611"
+          },
+          {
+            "name": "dimensions[repository_network_root_nwo]",
+            "value": "leonardodalcin%2Fchrome-open-api-generetor"
+          },
+          { "name": "", "value": "" },
+          {
+            "name": "measures[performance_timing]",
+            "value": "1-1-1-778-596-595-545-470-1-1-1--778-0---8-544-444--468-467"
+          },
+          { "name": "", "value": "" },
+          { "name": "dimensions[actor_id]", "value": "15152138" },
+          { "name": "dimensions[actor_login]", "value": "leonardodalcin" },
+          {
+            "name": "dimensions[actor_hash]",
+            "value": "986b97d341ecfbe637d165e3a34991bcadc335eeb8dc2443fab83e137c6f6828"
+          },
+          { "name": "dimensions[cid]", "value": "1296818776.1615800886" }
+        ],
+        "search": "?dimensions[page]=https%3A%2F%2Fgithub.com%2Fleonardodalcin%2Fchrome-open-api-generetor&dimensions[title]=leonardodalcin%2Fchrome-open-api-generetor&dimensions[referrer]=https%3A%2F%2Fgithub.com%2F&dimensions[user_agent]=Mozilla%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F89.0.4389.90%20Safari%2F537.36&dimensions[screen_resolution]=2560x1440&dimensions[pixel_ratio]=1&dimensions[browser_resolution]=1790x1204&dimensions[tz_seconds]=7200&dimensions[timestamp]=1617097320260&dimensions[referrer]=https%3A%2F%2Fgithub.com%2F&dimensions[request_id]=DC88%3A11431%3A1C44C71%3A1D08BC4%3A6062F261&dimensions[visitor_id]=5569794233374550582&dimensions[region_edge]=fra&dimensions[region_render]=iad&dimensions[user_id]=15152138&dimensions[user_login]=leonardodalcin&dimensions[repository_id]=295434611&dimensions[repository_nwo]=leonardodalcin%2Fchrome-open-api-generetor&dimensions[repository_public]=false&dimensions[repository_is_fork]=false&dimensions[repository_network_root_id]=295434611&dimensions[repository_network_root_nwo]=leonardodalcin%2Fchrome-open-api-generetor&&measures[performance_timing]=1-1-1-778-596-595-545-470-1-1-1--778-0---8-544-444--468-467&&dimensions[actor_id]=15152138&dimensions[actor_login]=leonardodalcin&dimensions[actor_hash]=986b97d341ecfbe637d165e3a34991bcadc335eeb8dc2443fab83e137c6f6828&dimensions[cid]=1296818776.1615800886",
+        "url": "https://collector.githubapp.com/github/page_view?dimensions[page]=https%3A%2F%2Fgithub.com%2Fleonardodalcin%2Fchrome-open-api-generetor&dimensions[title]=leonardodalcin%2Fchrome-open-api-generetor&dimensions[referrer]=https%3A%2F%2Fgithub.com%2F&dimensions[user_agent]=Mozilla%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F89.0.4389.90%20Safari%2F537.36&dimensions[screen_resolution]=2560x1440&dimensions[pixel_ratio]=1&dimensions[browser_resolution]=1790x1204&dimensions[tz_seconds]=7200&dimensions[timestamp]=1617097320260&dimensions[referrer]=https%3A%2F%2Fgithub.com%2F&dimensions[request_id]=DC88%3A11431%3A1C44C71%3A1D08BC4%3A6062F261&dimensions[visitor_id]=5569794233374550582&dimensions[region_edge]=fra&dimensions[region_render]=iad&dimensions[user_id]=15152138&dimensions[user_login]=leonardodalcin&dimensions[repository_id]=295434611&dimensions[repository_nwo]=leonardodalcin%2Fchrome-open-api-generetor&dimensions[repository_public]=false&dimensions[repository_is_fork]=false&dimensions[repository_network_root_id]=295434611&dimensions[repository_network_root_nwo]=leonardodalcin%2Fchrome-open-api-generetor&&measures[performance_timing]=1-1-1-778-596-595-545-470-1-1-1--778-0---8-544-444--468-467&&dimensions[actor_id]=15152138&dimensions[actor_login]=leonardodalcin&dimensions[actor_hash]=986b97d341ecfbe637d165e3a34991bcadc335eeb8dc2443fab83e137c6f6828&dimensions[cid]=1296818776.1615800886"
+      },
+      "response": { "body": null, "headers": [], "status": 0 }
+    }
+  },
+  "/manifest.json": {
+    "0": {
+      "request": {
+        "cookies": [],
+        "headers": [
+          {
+            "name": "sec-ch-ua",
+            "value": "\"Google Chrome\";v=\"89\", \"Chromium\";v=\"89\", \";Not A Brand\";v=\"99\""
+          },
+          {
+            "name": "Referer",
+            "value": "https://github.com/leonardodalcin/chrome-open-api-generetor"
+          },
+          { "name": "sec-ch-ua-mobile", "value": "?0" },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"
+          }
+        ],
+        "href": "https://github.com/manifest.json",
+        "method": "GET",
+        "pathname": "/manifest.json",
+        "queryString": [],
+        "search": "",
+        "url": "https://github.com/manifest.json"
+      },
+      "response": {
+        "body": "{\"name\":\"GitHub\",\"short_name\":\"GitHub\",\"icons\":[{\"sizes\":\"114x114\",\"src\":\"https://github.githubassets.com/apple-touch-icon-114x114.png\"},{\"sizes\":\"120x120\",\"src\":\"https://github.githubassets.com/apple-touch-icon-120x120.png\"},{\"sizes\":\"144x144\",\"src\":\"https://github.githubassets.com/apple-touch-icon-144x144.png\"},{\"sizes\":\"152x152\",\"src\":\"https://github.githubassets.com/apple-touch-icon-152x152.png\"},{\"sizes\":\"180x180\",\"src\":\"https://github.githubassets.com/apple-touch-icon-180x180.png\"},{\"sizes\":\"57x57\",\"src\":\"https://github.githubassets.com/apple-touch-icon-57x57.png\"},{\"sizes\":\"60x60\",\"src\":\"https://github.githubassets.com/apple-touch-icon-60x60.png\"},{\"sizes\":\"72x72\",\"src\":\"https://github.githubassets.com/apple-touch-icon-72x72.png\"},{\"sizes\":\"76x76\",\"src\":\"https://github.githubassets.com/apple-touch-icon-76x76.png\"},{\"src\":\"https://github.githubassets.com/app-icon-192.png\",\"type\":\"image/png\",\"sizes\":\"192x192\"},{\"src\":\"https://github.githubassets.com/app-icon-512.png\",\"type\":\"image/png\",\"sizes\":\"512x512\"}],\"prefer_related_applications\":true,\"related_applications\":[{\"platform\":\"play\",\"url\":\"https://play.google.com/store/apps/details?id=com.github.android\",\"id\":\"com.github.android\"}]}",
+        "headers": [
+          { "name": "server", "value": "GitHub.com" },
+          { "name": "date", "value": "Tue, 30 Mar 2021 09:32:10 GMT" },
+          {
+            "name": "content-type",
+            "value": "application/manifest+json; charset=utf-8"
+          },
+          { "name": "vary", "value": "X-PJAX" },
+          {
+            "name": "vary",
+            "value": "Accept-Encoding, Accept, X-Requested-With"
+          },
+          { "name": "cache-control", "value": "max-age=604800, public" },
+          { "name": "etag", "value": "W/\"86fa5c96904fde6c15905231203db2fc\"" },
+          { "name": "x-frame-options", "value": "deny" },
+          { "name": "x-content-type-options", "value": "nosniff" },
+          { "name": "x-xss-protection", "value": "0" },
+          {
+            "name": "referrer-policy",
+            "value": "origin-when-cross-origin, strict-origin-when-cross-origin"
+          },
+          {
+            "name": "expect-ct",
+            "value": "max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\""
+          },
+          {
+            "name": "content-security-policy",
+            "value": "default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker-6832eced.js gist.github.com/socket-worker-6832eced.js"
+          },
+          { "name": "content-encoding", "value": "gzip" },
+          {
+            "name": "x-github-request-id",
+            "value": "C8AB:8F7C:FCC86C:106FA25:6062F01A"
+          }
+        ],
+        "status": 200
+      }
+    }
+  },
+  "/users/leonardodalcin/feature_preview/indicator_check": {
+    "0": {
+      "request": {
+        "cookies": [],
+        "headers": [
+          {
+            "name": "sec-ch-ua",
+            "value": "\"Google Chrome\";v=\"89\", \"Chromium\";v=\"89\", \";Not A Brand\";v=\"99\""
+          },
+          { "name": "Accept", "value": "application/json" },
+          {
+            "name": "Referer",
+            "value": "https://github.com/leonardodalcin/chrome-open-api-generetor"
+          },
+          { "name": "sec-ch-ua-mobile", "value": "?0" },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"
+          }
+        ],
+        "href": "https://github.com/users/leonardodalcin/feature_preview/indicator_check",
+        "method": "GET",
+        "pathname": "/users/leonardodalcin/feature_preview/indicator_check",
+        "queryString": [],
+        "search": "",
+        "url": "https://github.com/users/leonardodalcin/feature_preview/indicator_check"
+      },
+      "response": {
+        "body": "{\"show_indicator\":false}",
+        "headers": [
+          { "name": "server", "value": "GitHub.com" },
+          { "name": "date", "value": "Tue, 30 Mar 2021 09:32:10 GMT" },
+          {
+            "name": "content-type",
+            "value": "application/json; charset=utf-8"
+          },
+          { "name": "vary", "value": "X-PJAX" },
+          {
+            "name": "vary",
+            "value": "Accept-Encoding, Accept, X-Requested-With"
+          },
+          { "name": "cache-control", "value": "max-age=900, private" },
+          { "name": "etag", "value": "W/\"b086cd16a5d1e1190981cda623503729\"" },
+          { "name": "x-frame-options", "value": "deny" },
+          { "name": "x-content-type-options", "value": "nosniff" },
+          { "name": "x-xss-protection", "value": "0" },
+          {
+            "name": "referrer-policy",
+            "value": "origin-when-cross-origin, strict-origin-when-cross-origin"
+          },
+          {
+            "name": "expect-ct",
+            "value": "max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\""
+          },
+          {
+            "name": "content-security-policy",
+            "value": "default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker-6832eced.js gist.github.com/socket-worker-6832eced.js"
+          },
+          { "name": "content-encoding", "value": "gzip" },
+          {
+            "name": "x-github-request-id",
+            "value": "C8AB:8F7C:FCC860:106FA19:6062F01A"
+          }
+        ],
+        "status": 200
+      }
+    }
+  }
+}

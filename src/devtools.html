@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Getting Started Extension's Popup</title>
+    <style>
+      .grid {
+        display: grid;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid"></div>
+    <ul style="min-width: 700px">
+      <input type="text" id="filterRegexURLInput" >
+      <button >Start sampling</button>
+      <button >Stop sampling</button>
+      <button id="save-db-as-json">Save DB as JSON</button>
+      <li>Last request: <span id="currentStorage"></span></li>
+      <li>Last response: <span id="lastResponse"></span></li>
+    </ul>
+    <script src="create-devtools-panel.js"></script>
+  </body>
+</html>
