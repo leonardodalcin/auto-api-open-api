@@ -27,7 +27,7 @@
     "copy-static-files": "rsync -zarv $(find ./src -print | grep 'json\\|html\\|js\\|png') ./dist",
     "lint": "prettier --ignore-path .gitignore . -w",
     "compile": "tsc --sourceMap",
-    "clean": "rm -rf dist",
+    "clean": "rm -rf dist,.idea,node_modules",
     "test": "jest"
   },
   "author": "Leonardo Vogel Dalcin",
