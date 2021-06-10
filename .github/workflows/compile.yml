@@ -3,7 +3,7 @@ on:
     branches:
       - main
 jobs:
-  lint:
+  compile:
     runs-on: ubuntu-18.04
     steps:
       - name: Setup Node
