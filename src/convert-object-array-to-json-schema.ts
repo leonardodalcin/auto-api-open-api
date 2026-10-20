@@ -1,4 +1,3 @@
-// @ts-ignore
 import * as GenerateSchema from "generate-schema";
 export function convertObjectArrayIntoJSONSchema(array: any[]): object {
   const jsonSchema = GenerateSchema.json("", array);

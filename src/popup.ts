@@ -8,5 +8,5 @@ chrome.tabs?.query(
     if (element) {
       element.textContent = tabs[0].url ?? "";
     }
-  }
+  },
 );
