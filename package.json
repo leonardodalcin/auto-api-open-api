@@ -1,53 +1,37 @@
 {
-  "name": "auto-open-api",
+  "name": "auto-api-open-api",
   "version": "1.0.0",
-  "description": "auto-open-api",
-  "main": "build/index.js",
-  "watch": {
-    "compile-ts": {
-      "patterns": [
-        "src"
-      ],
-      "extensions": "ts"
-    },
-    "copy-static-files": {
-      "patterns": [
-        "src"
-      ],
-      "extensions": [
-        "json",
-        "html",
-        "js",
-        "png"
-      ]
-    }
-  },
+  "description": "Chrome DevTools extension that generates an OpenAPI specification from recorded requests",
   "scripts": {
-    "dev": "npm-watch",
-    "copy-static-files": "rsync -zarv $(find ./src -print | grep 'json\\|html\\|js\\|png') ./dist",
-    "lint": "prettier --ignore-path .gitignore . -w",
-    "compile": "tsc --sourceMap",
-    "clean": "rm -rf dist,.idea,node_modules",
-    "test": "jest"
+    "dev": "npm run copy-static-files && tsc -p tsconfig.build.json --watch",
+    "build": "npm run clean && npm run compile && npm run copy-static-files",
+    "copy-static-files": "mkdir -p dist && cp src/manifest.json src/*.html src/*.png dist",
+    "compile": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "lint": "prettier --check .",
+    "format": "prettier --write .",
+    "clean": "rm -rf dist",
+    "test": "vitest run"
   },
   "author": "Leonardo Vogel Dalcin",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/leonardodalcin/chrome-open-api-generetor.git"
+    "url": "https://github.com/leonardodalcin/auto-api-open-api.git"
   },
   "dependencies": {
     "generate-schema": "^2.6.0",
-    "openapi-types": "^7.0.0"
+    "openapi-types": "^12.1.3"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=26"
   },
   "devDependencies": {
-    "@types/chrome": "0.0.125",
-    "@types/jest": "^26.0.15",
-    "jest": "^26.6.1",
-    "npm-watch": "^0.7.0",
-    "prettier": "^2.2.0",
-    "ts-jest": "^26.4.2",
-    "ts-loader": "^8.0.7",
-    "typescript": "~4.0.3"
+    "@types/chrome": "^0.3.5",
+    "@types/har-format": "^1.2.16",
+    "prettier": "^3.9.10",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
   }
 }

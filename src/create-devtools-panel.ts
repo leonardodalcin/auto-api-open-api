@@ -1,34 +1,16 @@
+import type { RequestSample } from "./types/request-sample";
+import type { APISample } from "./types/api-sample";
+
 chrome.devtools.panels.create(
   "My Panel",
   "icon.png",
   "devtools.html",
-  function (panel) {}
+  function (panel) {},
 );
 
-import { Cookie, Header, QueryString } from "har-format";
-
-interface RequestSample {
-  id: string;
-  request: {
-    method: string;
-    url: string;
-    body: string | undefined;
-    cookies: Cookie[];
-    headers: Header[];
-    queryString: QueryString[];
-    href: string;
-    search: string;
-    pathname: string;
-  };
-  response: {
-    status: number;
-    body: string;
-    headers: Header[];
-  };
-}
 let isFirst = true;
 let filterURLRegex = "github.com";
-let items: { [pathname: string]: RequestSample[] } = {};
+let items: APISample = {};
 const requestSamplerListener = (req: chrome.devtools.network.Request) => {
   req.getContent((content) => {
     const { request, response } = req;
@@ -83,6 +65,6 @@ function stopSampling() {
   chrome.storage.sync.clear();
 
   chrome.devtools.network.onRequestFinished.removeListener(
-    requestSamplerListener
+    requestSamplerListener,
   );
 }
